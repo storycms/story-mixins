@@ -3,7 +3,25 @@
   "version": "0.0.1",
   "description": "Web developing prototype by iznyn",
   "license": "MIT",
-  "author": "M Arif Mahthunisnaini",
+  "author": {
+    "email": "arif@froyo.co.id",
+    "name": "M Arif Mahthunisnaini",
+    "url": "https://github.com/iznyn"
+  },
+  "bugs": {
+    "url": "https://github.com/Igosuki/compass-mixins/issues"
+  },
+  "contributors": [
+    {
+      "email": "purwandi@froyo.co.id",
+      "name": "Purwandi",
+      "url": "https://github.com/purwandi"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/storycms/story-mixins.git"
+  },
   "dependencies": {
     "autoprefixer": "^6.4.1",
     "bootstrap-sass": "^3.3.7",
