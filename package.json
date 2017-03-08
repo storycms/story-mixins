@@ -1,0 +1,13 @@
+{
+  "name": "storycms-mixins",
+  "version": "0.0.1",
+  "description": "Web developing prototype by iznyn",
+  "license": "MIT",
+  "author": "M Arif Mahthunisnaini",
+  "dependencies": {
+    "autoprefixer": "^6.4.1",
+    "bootstrap-sass": "^3.3.7",
+    "compass-mixins": "^0.12.10",
+    "font-awesome": "^4.6.3"
+  }
+}
