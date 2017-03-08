@@ -2,13 +2,13 @@
 // Mixins Setup
 //=====================================================================
 // General
-@import 'general/general';
+@import 'mixins/general/general';
 // Shortcode
-@import 'shortcode/shortcode';
+@import 'mixins/shortcode/shortcode';
 // Square
-@import 'shape/shape';
+@import 'mixins/shape/shape';
 // Text
-@import 'text/text';
+// @import 'text/text';
 // Social
-@import 'social/social'; 
+@import 'mixins/social/social';
 

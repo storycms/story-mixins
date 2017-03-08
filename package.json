@@ -27,5 +27,6 @@
     "bootstrap-sass": "^3.3.7",
     "compass-mixins": "^0.12.10",
     "font-awesome": "^4.6.3"
-  }
+  },
+  "version": "0.0.3"
 }
