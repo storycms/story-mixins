@@ -1,6 +1,6 @@
 {
   "name": "storycms-mixins",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "Web developing prototype by iznyn",
   "license": "MIT",
   "author": {
@@ -26,7 +26,8 @@
     "autoprefixer": "^6.4.1",
     "bootstrap-sass": "^3.3.7",
     "compass-mixins": "^0.12.10",
-    "font-awesome": "^4.6.3"
+    "font-awesome": "^4.6.3",
+    "blueimp-file-upload": "^9.18.0"
   },
   "version": "0.0.4"
 }
