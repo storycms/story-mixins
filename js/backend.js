@@ -11,3 +11,4 @@ window.$ = window.jQuery = require('jquery');
 require('bootstrap-sass');
 require('./vendors/aim')
 require('./components/backend-sidebar')
+require('./components/backend-media')

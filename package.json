@@ -23,6 +23,7 @@
     "url": "git://github.com/storycms/story-mixins.git"
   },
   "dependencies": {
+    "babel-preset-es2015": "^6.24.0",
     "autoprefixer": "^6.4.1",
     "bootstrap-sass": "^3.3.7",
     "compass-mixins": "^0.12.10",
