@@ -28,6 +28,5 @@
     "compass-mixins": "^0.12.10",
     "font-awesome": "^4.6.3",
     "blueimp-file-upload": "^9.18.0"
-  },
-  "version": "0.0.4"
+  }
 }
