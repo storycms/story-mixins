@@ -3,14 +3,15 @@
 $(function () {
   'use strict';
   // Change this to the location of your server-side upload handler:
-  var url = '/backend/media';
+  var url = '/backend/upload';
 
   $('#fileupload').fileupload({
     url: url,
     dataType: 'json',
     done: function (e, data) {
       $.each(data.result.files, function (index, file) {
-          $('<p/>').text(file.name).appendTo('#files');
+        var str = '<tr><td>' + file.name + '</td><td><img src="' + file.thumbnailUrl + '" class="img-responsive" /></td><td>' + file.mimes + '</td></tr><input type="hidden" name="media[]" value="' + file.name +'*' +file.mimes+' " />';
+        $(str).appendTo('table.fileuploaded')
       });
     },
     progressall: function (e, data) {

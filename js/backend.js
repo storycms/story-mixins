@@ -6,9 +6,16 @@
  * code may be modified to fit the specific needs of your application.
  */
 
-window.$ = window.jQuery = require('jquery');
+window.$ = window.jQuery = require('jquery')
 
-require('bootstrap-sass');
-require('./vendors/aim')
+require('bootstrap-sass')
+require('bootstrap-datetime-picker')
+require('blueimp-file-upload')
+
+// require vendor plugins
+require('./vendors/aim.js')
+
+require('./components/backend-datepicker')
 require('./components/backend-sidebar')
 require('./components/backend-media')
+
