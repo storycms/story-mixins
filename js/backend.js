@@ -14,6 +14,7 @@ require('blueimp-file-upload')
 
 // require vendor plugins
 require('./vendors/aim.js')
+require('./vendors/jquery.iframe.transport')
 
 require('./components/backend-datepicker')
 require('./components/backend-sidebar')
