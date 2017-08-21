@@ -8,7 +8,8 @@
 
 window.$ = window.jQuery = require('jquery');
 
-require('bootstrap-sass');
+require('bootstrap-sass')
+require('blueimp-file-upload')
 require('./vendors/aim')
 require('./components/backend-sidebar')
 require('./components/backend-media')
